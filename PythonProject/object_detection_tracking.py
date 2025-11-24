@@ -10,9 +10,9 @@ GREEN = (0, 255, 0)
 WHITE = (255, 255, 255)
 
 # initialize the video capture object
-video_cap = cv2.VideoCapture("1.mp4")
+video_cap = cv2.VideoCapture("2.mp4")
 # initialize the video writer object
-writer = create_video_writer(video_cap, "output4444.mp4")
+writer = create_video_writer(video_cap, "output2.mp4")
 
 # load the pre-trained YOLOv8n model
 model = YOLO("yolov8n.pt")
